@@ -1,0 +1,13 @@
+var childHeight=55
+function  displayifChildIsAbleToRideTheRollerCoaster(){
+    if (childHeight >=52){
+
+    console.log("Get on that ride, kiddo!");
+
+    }
+
+    else {
+    console.log("Sorry kiddo. Maybe next year");
+    }
+}
+displayifChildIsAbleToRideTheRollerCoaster(childHeight);
